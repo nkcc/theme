@@ -12531,9 +12531,27 @@ h5,
         }
     }
 
+    &.offer-school {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
     .img {
         width: 100%;
         height: 300px;
+
+        &.school-icon {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
     }
 }
 
