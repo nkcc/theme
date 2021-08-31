@@ -7,7 +7,8 @@
 
 $primary-light: #fd6100;
 $primary-dark: #1d2823;
-$primary-orange: #d01e29;
+$primary-orange: $primary-light;
+// $primary-orange: #d01e29;
 $text-primary: #f5d190;
 
 
@@ -11704,7 +11705,7 @@ h5,
     padding: 0;
 
     .container {
-        background: $primary-dark;
+        // background: $primary-dark;
         width: 1110px;
     }
 
@@ -12104,7 +12105,7 @@ h5,
                 right: 0;
                 background: $primary-dark;
                 background: -webkit-gradient(left bottom, right top, color-stop(0%, $primary-dark), color-stop(100%, $primary-light));
-                background: linear-gradient(45deg, $primary-dark 0%, $primary-light 100%);
+                background: linear-gradient(45deg, $primary-dark 0%, #300303 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary-dark', endColorstr='$primary-light', GradientType=1);
                 opacity: .5;
             }
@@ -14005,16 +14006,24 @@ textarea.form-control {
         position: absolute;
         top: 0;
         width: 100%;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0), $primary-dark);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0), #000);
         padding: 10px 0;
 
-        .navbar-nav > .nav-item > .nav-link  {
-            color: $text-primary;
-        }
+        // .navbar-nav > .nav-item > .nav-link  {
+        //     // color: $text-primary;
+        // }
     }
 }
 
 .header-logo {
     height: 50px;
     margin-right: 40px;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.text-primary-new {
+    color: $text-primary !important;
 }
