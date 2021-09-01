@@ -12534,8 +12534,8 @@ h5,
     &.offer-school {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
+        // justify-content: center;
+        // align-content: center;
         align-items: center;
     }
 
@@ -12551,6 +12551,7 @@ h5,
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
+            border: 1px solid #ddd;
         }
     }
 }
@@ -14044,4 +14045,23 @@ textarea.form-control {
 
 .text-primary-new {
     color: $text-primary !important;
+}
+
+.schools {
+    .logo {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 3px;
+        display: inline-block;
+        margin-bottom: 8px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    }
+}
+
+.student-offer {
+    .points {
+        height: 300px;
+    }
 }

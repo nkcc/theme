@@ -11998,11 +11998,6 @@ h5,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -12021,6 +12016,7 @@ h5,
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border: 1px solid #ddd;
 }
 
 @media (max-width: 991.98px) {
@@ -13481,5 +13477,20 @@ textarea.form-control {
 
 .text-primary-new {
   color: #f5d190 !important;
+}
+
+.schools .logo {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 3px;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+ .offer-points {
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
