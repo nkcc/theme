@@ -12846,6 +12846,10 @@ textarea.form-control {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary-dark', endColorstr='$primary-light', GradientType=1);
 }
 
+#section-counter.about-team:after {
+    background: linear-gradient(45deg, rgba(0,0,0,0) 0%, #000 100%);
+}
+
 .ftco-counter {
   overflow-x: hidden;
   position: relative;
