@@ -96,6 +96,10 @@ section {
     display: block;
 }
 
+section {
+    background: #fff;
+}
+
 body {
     margin: 0;
     font-family: Georgia, -apple-system, "Noto Serif SC", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -106,6 +110,7 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus {
@@ -15146,8 +15151,10 @@ textarea.form-control {
 }
 
 .l-header {
-    position: relative;
+    position: absolute;
     width: 100%;
+    top: 0;
+
 
     nav.l-nav {
         position: absolute;
@@ -15185,6 +15192,34 @@ textarea.form-control {
 
 .offer-points {
     height: 300px;
+}
+
+.home-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/lb.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    .lm-introduction {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(
+            45deg
+            , #12121247 0%, #0000008c 100%);
+    }
+}
+
+
+.lm-services {
+    margin-top: calc(100vh - 25px);
 }
 
 /*# sourceMappingURL=style.css.map */
