@@ -5542,6 +5542,8 @@ input {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    width: 100%;
+    justify-content: center;
 
     .nav-link {
         padding-right: 0;
@@ -5603,6 +5605,10 @@ input {
             padding-right: 0;
             padding-left: 0;
         }
+    }
+    
+    .searchform {
+        margin-top: 10px;
     }
 }
 
@@ -12740,8 +12746,7 @@ h5,
 
 .searchform {
     height: 54px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 
     .form-control {
         width: calc(100% - 52px);

@@ -4878,6 +4878,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  width: 100%;
+  justify-content: center;
 }
 
 .navbar-nav .nav-link {
@@ -4936,6 +4938,14 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     padding-right: 0;
     padding-left: 0;
   }
+  
+    .searchform {
+        width: 70%;
+    }
+    
+    .header-logo {
+        margin: 10px 0;
+    }
 }
 
 @media (min-width: 576px) {
@@ -11194,9 +11204,8 @@ h5,
 }
 
 .searchform {
-  height: 54px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 30px;
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .searchform .form-control {
